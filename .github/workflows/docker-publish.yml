@@ -61,5 +61,5 @@ jobs:
           push: true
           platforms: ${{ matrix.platform }}
           tags: |
-            bajotumn/meshsense:${{ github.event.inputs.tag }}
-            bajotumn/meshsense:${{ steps.version.outputs.short_tag }}
+            swierap/meshsense:${{ github.event.inputs.tag }}
+            swierap/meshsense:${{ steps.version.outputs.short_tag }}
